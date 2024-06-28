@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T07:37:26.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="WcU_vGuJAyG5J3vzv4ca" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-28T07:44:39.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mgnn0XV1Ju-ekkg7NsCw" version="24.6.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="3271" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -42,8 +42,8 @@
         <mxCell id="6qC9jWtNrOMXbiLZG_nK-14" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-8">
           <mxGeometry x="210" y="30" width="109" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6qC9jWtNrOMXbiLZG_nK-9" value="Figure N. Example Intermediate representations (using NatSQL and SC-Prompt as examples)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="-1234" y="890" width="724" height="60" as="geometry" />
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-9" value="Figure N. Example Intermediate representations (using NatSQL and SC-Prompt as examples). For the SQL-like Syntax Language methods, NL and DB will be firstly translated to a sentence that comprises some key SQL commands and content, and final SQL query are generated based on this intermediate syntax language. For the SQL-like Sketch Structure methods, it firstly generates an SQL structure containing SQLcommands and operators and leave contents to be placeholders. Then it fill the placeholders by combining information from NL and DB." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-1234" y="890" width="724" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6qC9jWtNrOMXbiLZG_nK-10" value="title" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="-1364" y="300" width="109" height="40" as="geometry" />
