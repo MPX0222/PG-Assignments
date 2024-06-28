@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T07:28:39.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mrVlEsNHApuGKwTBcmJD" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-28T07:37:26.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="WcU_vGuJAyG5J3vzv4ca" version="24.6.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3700" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3271" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QX0yu2BB7dJz-mTAqyrR-1" value="&lt;div class=&quot;page&quot; title=&quot;Page 2&quot; style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); text-align: start; font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot; class=&quot;layoutArea&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot; class=&quot;column&quot;&gt;&lt;p style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Which film has more than 5 actors and less than 3 in the inventory?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-1239" y="130" width="749" height="60" as="geometry" />
+          <mxGeometry x="-1241" y="190" width="749" height="60" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;SELECT &lt;/font&gt;T1.title &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;FROM &lt;/font&gt;film &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;AS &lt;/font&gt;T1 &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;JOIN &lt;/font&gt;film_actor &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;AS &lt;/font&gt;T2 &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;ON &lt;/font&gt;T1.film_id = T2.film_id&amp;nbsp;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;GROUP BY&lt;/font&gt; T1.film_id &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;HAVING count&lt;/font&gt;(*) &amp;gt; 5&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;INTERSECT SELECT&lt;/font&gt; T1.title &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;FROM &lt;/font&gt;film &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;AS &lt;/font&gt;T1 &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;JOIN &lt;/font&gt;inventory &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;AS &lt;/font&gt;T2 &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;ON &lt;/font&gt;T1.film_id = T2.film_id&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;GROUP BY &lt;/font&gt;T1.film_id &lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;HAVING count&lt;/font&gt;(*) &amp;lt; 3&lt;/div&gt;" link="&#xa;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;SELECT &lt;/font&gt;T1.title &lt;font color=&quot;#3399ff&quot;&gt;FROM &lt;/font&gt;film &lt;font color=&quot;#3399ff&quot;&gt;AS &lt;/font&gt;T1 &lt;font color=&quot;#3399ff&quot;&gt;JOIN &lt;/font&gt;film_actor &lt;font color=&quot;#3399ff&quot;&gt;AS &lt;/font&gt;T2 &lt;font color=&quot;#3399ff&quot;&gt;ON &lt;/font&gt;T1.film_id = T2.film_id&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;GROUP BY&lt;/font&gt; T1.film_id &lt;font color=&quot;#3399ff&quot;&gt;HAVING count&lt;/font&gt;(*) &amp;gt; 5&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;INTERSECT SELECT&lt;/font&gt; T1.title &lt;font color=&quot;#3399ff&quot;&gt;FROM &lt;/font&gt;film &lt;font color=&quot;#3399ff&quot;&gt;AS &lt;/font&gt;T1 &lt;font color=&quot;#3399ff&quot;&gt;JOIN &lt;/font&gt;inventory &lt;font color=&quot;#3399ff&quot;&gt;AS &lt;/font&gt;T2 &lt;font color=&quot;#3399ff&quot;&gt;ON &lt;/font&gt;T1.film_id = T2.film_id&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;GROUP BY &lt;/font&gt;T1.film_id &lt;font color=&quot;#3399ff&quot;&gt;HAVING count&lt;/font&gt;(*) &amp;lt; 3&lt;/div&gt;&#xa;&#xa;" id="QX0yu2BB7dJz-mTAqyrR-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=16;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="1" vertex="1">
@@ -33,11 +33,44 @@
         <mxCell id="6qC9jWtNrOMXbiLZG_nK-3" value="By SC-Prompt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Times New Roman;fontColor=#4D4D4D;" vertex="1" parent="QX0yu2BB7dJz-mTAqyrR-17">
           <mxGeometry x="10" y="340" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6qC9jWtNrOMXbiLZG_nK-8" value="Container" style="swimlane;startSize=30;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1239" y="210" width="749" height="120" as="geometry" />
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-8" value="film" style="swimlane;startSize=30;rounded=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1364" y="270" width="319" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6qC9jWtNrOMXbiLZG_nK-9" value="Figure N. " style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-13" value="film_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-8">
+          <mxGeometry x="109" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-14" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-8">
+          <mxGeometry x="210" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-9" value="Figure N. Example Intermediate representations (using NatSQL and SC-Prompt as examples)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="-1234" y="890" width="724" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-10" value="title" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-1364" y="300" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-15" value="film_actor" style="swimlane;startSize=30;rounded=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1025" y="270" width="319" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-16" value="film_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-15">
+          <mxGeometry x="109" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-17" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-15">
+          <mxGeometry x="210" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-18" value="name" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-1025" y="300" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-19" value="inventory" style="swimlane;startSize=30;rounded=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-684" y="270" width="319" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-20" value="film_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-19">
+          <mxGeometry x="109" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-21" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="6qC9jWtNrOMXbiLZG_nK-19">
+          <mxGeometry x="210" y="30" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6qC9jWtNrOMXbiLZG_nK-22" value="tag" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-684" y="300" width="109" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
